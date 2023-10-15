@@ -1,24 +1,7 @@
 header {
     width: 100%;
-    background-image: url(..images/header_mountain_large.png);
-    background-attachment: fixed;
-    background-position: center;
+    background-image: url(../images/header_mountain_large.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
-
-@media screen and (max-width: 360px) {
-     header {
-         background-image: url(../images/header_mountain_small.png);
-     }
- }
-
- @media screen and (max-width: 1000px) {
-     header {
-         background-image: url(../images/header_mountain_medium.png);
-     }
- }
-
- @media screen and (max-width: 1500px) {
-     header {
-         background-image: url(../images/header_mountain_large.png);
- }
- }
